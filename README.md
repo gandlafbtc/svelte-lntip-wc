@@ -28,3 +28,9 @@ The command `npm run build` will create the web components library in the `dist/
 </body>
 </html>
 ```
+
+## Development
+
+### Styles
+
+The styles have to be generated with `npx tailwindcss -o build.css` and then copied into the style tag of the component.
