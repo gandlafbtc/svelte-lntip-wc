@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
 import { transform } from 'esbuild';
 import pkg from './package.json';
 
@@ -30,6 +31,10 @@ export default defineConfig({
     }
   },
   plugins: [
+    // nodePolyfills({
+    //   // Whether to polyfill `node:` protocol imports.
+    //   protocolImports: true,
+    // }),
     svelte({
       exclude: /\.wc\.svelte$/ as any,
       compilerOptions: {

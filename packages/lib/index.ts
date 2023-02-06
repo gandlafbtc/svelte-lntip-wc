@@ -1,1 +1,3 @@
-export { default as MyComponent } from './src/MyComponent.wc.svelte';
+import LnTip from "./src/LnTip.wc.svelte";
+
+export { LnTip }
