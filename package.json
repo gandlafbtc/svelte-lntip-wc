@@ -1,10 +1,10 @@
 {
-  "name": "gandlaf21-lntip",
+  "name": "lntip-wc",
   "description": "A base template for building a shareable web components library with Vite + Svelte",
   "version": "0.0.0",
   "type": "module",
-  "module": "dist/lib/gandlaf21-lntip.js",
-  "main": "dist/lib/gandlaf21-lntip.umd.js",
+  "module": "dist/lib/lntip-wc.js",
+  "main": "dist/lib/lntip-wc.umd.js",
   "scripts": {
     "start": "npm run dev -s",
     "dev": "vite --config vite.demo.config.ts",
@@ -34,8 +34,5 @@
   },
   "files": [
     "dist/lib"
-  ],
-  "dependencies": {
-    "buffer": "^6.0.3"
-  }
+  ]
 }
