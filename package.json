@@ -7,7 +7,7 @@
   "main": "dist/lib/lntip-wc.umd.js",
   "scripts": {
     "start": "npm run dev -s",
-    "dev": "vite --config vite.demo.config.ts",
+    "dev": "vite --config vite.demo.config.ts --host",
     "build": "vite build",
     "build:demo": "vite build --config vite.demo.config.ts",
     "preview": "vite preview --config vite.demo.config.ts",
