@@ -2,8 +2,6 @@
 
 This is a web-component based on [sinedied/svelte-web-components-template](https://github.com/sinedied/svelte-web-components-template). It allows everyone to include a lightning tip widget on their website.
 
-If you are building a page with svelte, the same (but better) is available as a [svelte component](https://github.com/gandlafbtc/)
-
 
 ## Building the library
 
