@@ -97,7 +97,7 @@
 	{#if isShow}
 		<div class="card bg-base-100 shadow-xl h-72 w-96 z-50 absolute">
 			<div class="card-body h-full">
-				<h2 class="card-title">Donate to {lnaddress.split("@")[0]}</h2>
+				<h2 class="card-title">Donate to {lnaddress}</h2>
 				{#if lninvoice}
 					{#if isConfirm}
 						<div
