@@ -42,7 +42,7 @@
 			isLoadingInvoice = true;
 			const { invoice, params, successAction, validatePreimage } =
 				await requestInvoice({
-					lnUrlOrAddress: "gandlaf21@stacker.news",
+					lnUrlOrAddress: lnaddress,
 					tokens: amount,
 				});
 			console.log(params);
